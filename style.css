@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.loader{
+    animation: load 1s ease-in-out 1;
+}
+@keyframes load {
+    0%{
+        height: 3px;
+        background-color: red;
+        width:0vw;
+    }
+    99%{
+        height: 3px;
+        background-color: red;
+        width:99vw;
+    }
+    100%{
+        height: 3px;
+        background-color: black;
+        width:100vw;
+    }
+}
+header{
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+    padding: 25px;
+    height: 8vh;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+}
+.name{
+    background-color: black;
+    font-size: xx-large;
+    padding-left: 2vw;
+}
+li{
+    background-color: black;
+    display: inline;
+    padding-left: 15vw;
+    font-size: larger;
+}
+.divider{
+    background-color: gray;
+    height: 1px;
+}
+.home{
+    min-height: 500px;
+    min-width: 100%;
+    animation: slider 8s ease-in-out infinite;
+    color: white;
+    display: grid;
+    grid-template-rows: 80px  auto;
+    justify-content: center;
+    font-size: x-large;
+    padding-top: 50px;
+    background: rgba(0, 0, 0, 0.5);
+    background-size: 100% 550px;
+}
+.outer {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 446px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: grid;
+    grid-template-rows: 182px auto;
+    justify-content: center;
+    font-size: xx-large;
+    position: absolute;
+    margin-top: 107px;
+    padding-top: 107px;
+}
+@keyframes slider {
+    0%,100%{
+        background-image: url(DALL·E\ 2023-03-10\ 13.04.26\ -\ real\ ice\ cream\ on\ a\ white\ table\ with\ its\ ingredients\ \ \(3\).png);
+    }
+    50%{
+        background-image: url(DALL·E\ 2023-03-10\ 13.13.31\ -\ real\ ice\ cream\ on\ a\ white\ table\ with\ its\ ingredients\ .png);
+    }
+}
+.us{
+    text-align: center;
+    font-size: xx-large;
+}
+.about{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#bw:hover{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border: 0px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+#bw1{
+    height: 50px;
+}
+#bw1:hover{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border: 0px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.contact{
+    background-color: black;
+    color: white;
+}
+::placeholder{
+    color: white;
+}
+.cu{
+    font-size: xx-large;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.contact-box{
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    text-align: center;
+}
+.contact-box form{
+    width: 40%;
+}
+#id{
+    width: 100%;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 3px solid white;
+    padding: 25px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#button{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: bold;
+}
+#button:hover{
+    background-color: transparent;
+    color: white;
+    border: 3px solid white;
+    border-radius: 5px;
+    font-size: large;
+    cursor: pointer;
+}
+footer{
+    background: black;
+    color: white;
+    padding: 9px 20px;
+    text-align: center;
+}
